@@ -876,20 +876,35 @@
 }
 
 @media (max-width: 768px) {
+  /* NAVBAR */
+
   .custom-navbar .container-fluid {
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px 20px !important;
+  }
+
+  .navbar-collapse {
+    width: 100%;
   }
 
   .navbar-nav {
     flex-direction: column;
     gap: 12px;
-    margin-top: 10px;
+    margin-top: 15px;
+    align-items: center !important;
+  }
+
+  .custom-nav-link,
+  .book-now-btn {
+    width: 100%;
+    max-width: 250px;
   }
 
   .logo-img {
     height: 80px;
   }
+
+  /* HOME */
 
   .hero-section,
   .contact-hero {
@@ -945,6 +960,8 @@
     text-align: left;
   }
 
+  /* SERVICES */
+
   .services-hero {
     min-height: 230px;
   }
@@ -974,6 +991,8 @@
     max-width: 320px;
   }
 
+  /* CONTACT */
+
   .contact-hero-left {
     height: 220px;
     padding: 30px;
@@ -994,6 +1013,8 @@
   .contact-footer p {
     font-size: 1.25rem;
   }
+
+  /* BOOKING */
 
   .booking-progress {
     max-width: 90%;
@@ -1018,6 +1039,8 @@
   .calendar-buttons {
     width: 90%;
   }
+
+  /* FOOTER */
 
   .site-footer {
     flex-direction: column;
